@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb961f07-44f5-4703-b064-0ae96f1df480" name="Default" comment="" />
+    <list default="true" id="bb961f07-44f5-4703-b064-0ae96f1df480" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jqm/jquery.mobile-1.4.0.js" afterPath="$PROJECT_DIR$/jqm/jquery.mobile-1.4.0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jqm/jquery.mobile-1.4.0.min.js" afterPath="$PROJECT_DIR$/jqm/jquery.mobile-1.4.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swipejs.html" afterPath="$PROJECT_DIR$/swipejs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\git\jqm\jqm\jquery.js" afterPath="$PROJECT_DIR$/jqm/jquery-1.10.2.js" />
+    </list>
     <ignored path="jqm.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="bb961f07-44f5-4703-b064-0ae96f1df480" time="1392213087844" ignored="false" />
     <file path="/index.html" changelist="bb961f07-44f5-4703-b064-0ae96f1df480" time="1392213684387" ignored="false" />
     <file path="/swipejs.html" changelist="bb961f07-44f5-4703-b064-0ae96f1df480" time="1392215638245" ignored="false" />
     <file path="/jquery-ui.html" changelist="bb961f07-44f5-4703-b064-0ae96f1df480" time="1392217535787" ignored="false" />
+    <file path="/test.html" changelist="bb961f07-44f5-4703-b064-0ae96f1df480" time="1392219580678" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="202" selection-end="202" vertical-scroll-proportion="-4.137931">
+            <state line="11" column="20" selection-start="385" selection-end="385" vertical-scroll-proportion="-7.586207">
               <folding />
             </state>
           </provider>
@@ -50,7 +58,7 @@
       <file leaf-file-name="swipejs.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swipejs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="11.206897">
+            <state line="21" column="23" selection-start="579" selection-end="579" vertical-scroll-proportion="11.206897">
               <folding />
             </state>
           </provider>
@@ -78,19 +86,28 @@
       <file leaf-file-name="jquery.mobile-1.4.0.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jqm/jquery.mobile-1.4.0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6562" column="16" selection-start="209534" selection-end="209534" vertical-scroll-proportion="0.0">
+            <state line="6562" column="16" selection-start="209541" selection-end="209541" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-ui-1.10.4.custom.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="jquery-ui-1.10.4.custom.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery-ui/jquery-ui-1.10.4.custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5299" column="23" selection-start="162292" selection-end="162301" vertical-scroll-proportion="0.25611326">
+            <state line="5299" column="23" selection-start="162292" selection-end="162301" vertical-scroll-proportion="22.42">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="41" selection-start="887" selection-end="892" vertical-scroll-proportion="0.74937344">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,8 +139,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jqm/jquery.js">
+      <file leaf-file-name="jquery-1.10.2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jqm/jquery-1.10.2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="268" column="4" selection-start="7478" selection-end="7478" vertical-scroll-proportion="0.0">
               <folding />
@@ -153,6 +170,7 @@
         <option value="$PROJECT_DIR$/swipejs/swipe.js" />
         <option value="$PROJECT_DIR$/swipejs.html" />
         <option value="$PROJECT_DIR$/jquery-ui.html" />
+        <option value="$PROJECT_DIR$/test.html" />
       </list>
     </option>
   </component>
@@ -235,6 +253,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -296,10 +328,11 @@
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1096" height="800" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.6004756" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25445706" sideWeight="0.6004756" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39952436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -384,16 +417,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="202" selection-end="202" vertical-scroll-proportion="-4.137931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swipejs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="11.206897">
+        <state line="21" column="23" selection-start="579" selection-end="579" vertical-scroll-proportion="11.206897">
           <folding />
         </state>
       </provider>
@@ -414,7 +440,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jqm/jquery.mobile-1.4.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6562" column="16" selection-start="209534" selection-end="209534" vertical-scroll-proportion="0.0">
+        <state line="6562" column="16" selection-start="209541" selection-end="209541" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -426,7 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jqm/jquery.js">
+    <entry file="file://$PROJECT_DIR$/jqm/jquery-1.10.2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="268" column="4" selection-start="7478" selection-end="7478" vertical-scroll-proportion="0.0">
           <folding />
@@ -459,10 +485,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery-ui/jquery-ui-1.10.4.custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5299" column="23" selection-start="162292" selection-end="162301" vertical-scroll-proportion="0.25611326">
+        <state line="5299" column="23" selection-start="162292" selection-end="162301" vertical-scroll-proportion="22.42">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="385" selection-end="385" vertical-scroll-proportion="-7.586207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="41" selection-start="887" selection-end="892" vertical-scroll-proportion="0.74937344">
+          <folding />
         </state>
       </provider>
     </entry>
