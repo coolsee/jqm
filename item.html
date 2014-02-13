@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>index</title>
+    <link rel="stylesheet"  href="jqm/jquery.mobile-1.4.0.css">
+    <script src="jqm/jquery-1.10.2.js"></script>
+    <script src="swipejs/swipe.js"></script>
+    <script src="jqm/jquery.mobile-1.4.0.js"></script>
+
+    <link rel="stylesheet" href="swipebox/swipebox.css">
+    <script src="swipebox/jquery.swipebox.js"></script>
+    <style>
+        .swipe {
+            overflow: hidden;
+            visibility: hidden;
+            position: relative;
+        }
+        .swipe-wrap {
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+        }
+        .swipe-wrap > div {
+            float:left;
+            position: relative;
+        }
+
+        .swipe-wrap > div >img {
+            width:60%;
+        }
+
+    </style>
+</head>
+<body>
+<div id='slider' class='swipe'>
+    <div class='swipe-wrap'>
+        <div><a  class="swipebox"   title="My Caption" href="images/1.jpg"> <img  src="images/1.jpg" /> </a> </div>
+        <div><a  class="swipebox"  title="My Caption"  href="images/2.jpg"> <img  src="images/2.jpg" /> </a> </div>
+        <div><a  class="swipebox"  title="My Caption"  href="images/3.jpg"> <img  src="images/3.jpg" /> </a> </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        window.mySwipe = new Swipe(document.getElementById('slider'), {
+            startSlide: 2,
+            speed: 400,
+            auto: 3000,
+            continuous: true,
+            disableScroll: false,
+            stopPropagation: false,
+            callback: function(index, elem) {},
+            transitionEnd: function(index, elem) {}
+        });
+
+        $(".swipebox").swipebox();
+    });
+</script>
+</body>
+</html>
